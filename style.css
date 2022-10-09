@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.contanir {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d8e1d4;
+    
+}
+
+.login-box {
+    height: 350px;
+    width: 430px;
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+    box-shadow: 0px 0px 80px -27px rgba(0,0,0,0.75);
+}
+
+.login-box img{
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    outline: none;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+p{
+    font-size: 14px;
+    padding: 8px;
+}
+p a{
+    color: #0067b8;
+}
+button{
+    background-color: #0067b8;
+    border: none;
+    color: white;
+    padding: 8px 40px;
+    margin-top: 13px;
+    margin-left: 250px;
+}
